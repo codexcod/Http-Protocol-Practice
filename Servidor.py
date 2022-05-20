@@ -68,6 +68,19 @@ class DB:
         self.data['userdata'][userId] = data
         self.guardar()
 
+    def get_oracion(self):
+        oracion = ""
+        print(self.data['userdata'])
+        print(self.data['userdata']['1'])
+        for i in range(1, self.data['user_id_next']):
+            id = str(i)
+            oracion += " " + str(self.data['userdata'][id]['palabra'])
+
+        return oracion
+
+
+        
+
 db = DB()
 
 def ensure_valid_userid():
@@ -98,12 +111,14 @@ def palabras():
         return redirect(url_for('palabras'))
 
     palabra = data["palabra"]
+    oracion = db.get_oracion()
     return f'''
         <p>Tu user id es {userId}, y la palabra aleatoria es: <b>{escape(palabra)}</b></p>
         <form method="post">
             <p>Nueva palabra <input type=text name=userpalabra>
             <p><input type=submit value=Cambiar>
         </form>
+        <p>La oracion formada entre las palabras de todos es: <b>{escape(oracion)}</b></p>
     '''
 
 @app.route('/logout')
