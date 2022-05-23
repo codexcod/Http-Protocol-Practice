@@ -1,0 +1,89 @@
+/*
+Theme Name: Neon Century Theme
+Author: FORM DIGITAL
+Author URI: http://www.form-digital.com
+Version: 1.0
+*/
+
+@import url("assets/css/starter.css");
+
+/* IE Hack */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+/* Cookies */
+
+.cc-revoke.cc-bottom.cc-right.cc-color-override-1709571658 {
+    z-index: 9;
+}
+
+.cc-revoke.cc-bottom.cc-right.cc-color-override-1709571658 {
+	display: none !important;
+	opacity: 0 !important;
+}
+
+/* Loader */
+
+.loading-screen {
+	z-index: 999 !important;
+}
+
+/* Richtext */
+
+.article-main .article-main-body .article-image img {
+    display: block;
+    width: auto !important;
+    max-width: 100%;
+    height: auto;
+}
+
+/* CF7 */
+
+.wpcf7-spinner {
+	display: none !important;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border: none !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.ajax-loader {
+    display: none !important;
+}
+
+.wpcf7-form-control-wrap.field-email {
+    position: relative;
+}
+
+.wpcf7-not-valid-tip {
+    position: absolute !important;
+    top: 15px !important;
+    right: 15px !important;
+}
+
+.invalid .wpcf7-response-output {
+    display: none !important;
+}
+
+.sent .wpcf7-email, .sent .circle-btn {
+    display: none !important;
+}
+
+.sent .wpcf7-response-output {
+    font-size: 14px;
+    padding: 10px !important;
+    margin: 20px 0 0 !important;
+}
+
+.wpcf7-form .email {
+    width: 100%;
+}
+
+.wpcf7-form .your-email {
+    display: flex;
+    align-items: center;
+}

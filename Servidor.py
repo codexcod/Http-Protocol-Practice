@@ -78,6 +78,13 @@ class DB:
 
         return oracion
 
+    def get_users_size(self):
+        return  self.data['user_id_next'] - 1
+
+    def get_info_id(self,id):
+        id = str(id)
+        return str(self.data['userdata'][id]['palabra'])
+
 
         
 
@@ -112,7 +119,7 @@ def palabras():
 
     palabra = data["palabra"]
     oracion = db.get_oracion()
-    return f'''
+    result = f'''
         <p>Tu user id es {userId}, y la palabra aleatoria es: <b>{escape(palabra)}</b></p>
         <form method="post">
             <p>Nueva palabra <input type=text name=userpalabra>
@@ -120,6 +127,14 @@ def palabras():
         </form>
         <p>La oracion formada entre las palabras de todos es: <b>{escape(oracion)}</b></p>
     '''
+    if db.get_users_size() >= 1:
+        for id in range(1, db.get_users_size() + 1):
+            result +=  f'''
+            <br/>
+            <p>El usuario con id {id} escribio: <b>{escape(db.get_info_id(id))}</b></p>
+        '''
+        
+    return result
 
 @app.route('/logout')
 def logout():
