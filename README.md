@@ -21,6 +21,41 @@ En si http, es un lenguaje que media entre las peticiones del cliente y las resp
 El funcionamiento del http se basa en un esquema de petición-respuesta entre el servidor web y el usuario o cliente que realiza la solicitud de transmisión de datos.
 De esta manera el servidor brinda una respuesta estructurada de modo puntual y dotada de una serie de metadatos, que establecen las pautas para el inicio, desarrollo y cierre de la transmisión de la información. Estos son los “métodos de petición”, es decir, los comandos que disparan la ejecución de recursos determinados, cuyos archivos residen en el servidor.
 
+## ¿Que metodos tiene el protocolo http?
+
+HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. Cada uno de ellos implementan una semántica diferente, pero algunas características similares son compartidas por un grupo de ellos. Los metodos son los siguientes:
+
+### GET
+
+El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+
+### POST
+
+El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+
+### HEAD
+
+El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
+
+### PUT
+
+El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+
+### DELETE
+El método DELETE borra un recurso en específico.
+
+### CONNECT
+El método CONNECT establece un túnel hacia el servidor identificado por el recurso.
+
+### OPTIONS
+El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
+
+### TRACE
+El método TRACE  realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
+
+### PATCH
+El método PATCH  es utilizado para aplicar modificaciones parciales a un recurso.
+
 ## ¿Qué es https?
 
 Por https se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de Transferencia de Hipertexto, que no es más que la versión segura del http, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensible (como claves y usuarios personales).
