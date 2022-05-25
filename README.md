@@ -1,4 +1,4 @@
-# :computer: Creating a http server with apache :computer:
+# :computer: Creating a http server with python :computer:
 
 ## ¿Qué es un protocolo informático? 
 
@@ -31,5 +31,5 @@ Un servidor web o servidor HTTP es un programa informático que procesa una apli
 
 ## ¿Que vamos a hacer en estas practica?
 
-Vamos a crear un servidor web mediante la herramienta de Apache.
+Vamos a crear un servidor web mediante la herramienta de Python.
 
