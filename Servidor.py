@@ -8,7 +8,7 @@ import json
 # En un cmd:
 #   > pip install flask
 #   > set FLASK_APP=Servidor
-#   > flask run
+#   > flask run --host=0.0.0.0
 # En el browser, entrar a http://localhost:5000
 
 app = Flask(__name__)
