@@ -1,6 +1,6 @@
-# :computer: Creating a http server with python :computer:
+# :computer: Creating a http server with python :computer: 
 
-## ¿Qué es un protocolo informático? 
+## ¿Qué es un protocolo informático? ##
 
 En informática y telecomunicaciones, hablamos de un protocolo para referirnos a un sistema de normas que regulan la comunicación entre dos o más sistemas que se transmiten información a través de diversos medios físicos.
 
