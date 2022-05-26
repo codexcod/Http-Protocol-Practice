@@ -70,8 +70,6 @@ class DB:
 
     def get_oracion(self):
         oracion = ""
-        print(self.data['userdata'])
-        print(self.data['userdata']['1'])
         for i in range(1, self.data['user_id_next']):
             id = str(i)
             oracion += " " + str(self.data['userdata'][id]['palabra'])
