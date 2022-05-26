@@ -92,4 +92,15 @@ Vamos a crear un servidor web mediante la herramienta de Python en el cual cada 
    - flask run --host=0.0.0.0
    
  En el browser, entrar a http://localhost:5000
+ 
+ ## Bibliografia
+ 
+>https://concepto.de/protocolo-informatico/
+
+>https://concepto.de/http/
+
+>https://developer.mozilla.org/es/docs/Web/HTTP
+
+>https://flask.palletsprojects.com/en/2.1.x/quickstart/
+
 
