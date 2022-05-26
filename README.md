@@ -25,35 +25,35 @@ De esta manera el servidor brinda una respuesta estructurada de modo puntual y d
 
 HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. Cada uno de ellos implementan una semántica diferente, pero algunas características similares son compartidas por un grupo de ellos. Los metodos son los siguientes:
 
-### GET
+- ### GET
 
 El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
 
-### POST
+- ### POST
 
 El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
 
-### HEAD
+- ### HEAD
 
 El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
 
-### PUT
+- ### PUT
 
 El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
 
-### DELETE
+- ### DELETE
 El método DELETE borra un recurso en específico.
 
-### CONNECT
+- ### CONNECT
 El método CONNECT establece un túnel hacia el servidor identificado por el recurso.
 
-### OPTIONS
+- ### OPTIONS
 El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
 
-### TRACE
+- ### TRACE
 El método TRACE  realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
 
-### PATCH
+- ### PATCH
 El método PATCH  es utilizado para aplicar modificaciones parciales a un recurso.
 
 ## ¿Qué es https?
@@ -83,4 +83,13 @@ Un servidor web o servidor HTTP es un programa informático que procesa una apli
 ## ¿Que vamos a hacer en estas practica?
 
 Vamos a crear un servidor web mediante la herramienta de Python en el cual cada usuario pueda conectarse y agregar una nueva palabra a una oracion creada entre muchos usuarios conectados
+
+ Inspirado en https://flask.palletsprojects.com/en/2.1.x/quickstart/
+ 
+ En un cmd:
+   - pip install flask
+   - set FLASK_APP=Servidor
+   - flask run --host=0.0.0.0
+   
+ En el browser, entrar a http://localhost:5000
 
