@@ -58,7 +58,23 @@ El método PATCH  es utilizado para aplicar modificaciones parciales a un recurs
 
 ## ¿Qué es https?
 
+Para usar HTTPS con su nombre de dominio, debe instalar un certificado SSL o TLS en su sitio web. Es posible que su host web (proveedor de hosting web) ofrezca seguridad HTTPS, o bien usted puede solicitar un certificado SSL/TLS a las autoridades certificadoras y, luego, instalarlo por su cuenta. Es posible que los certificados SSL/TLS deban renovarse periódicamente.
+
 Por https se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de Transferencia de Hipertexto, que no es más que la versión segura del http, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensible (como claves y usuarios personales).
+
+## ¿Como conseguir que nuestro dominio tenga el certificado https?
+
+Por https se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de Transferencia de Hipertexto, que no es más que la versión segura del http, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensible (como claves y usuarios personales). Cada servidor tiene su propio proceso para instalar y actualizar certificados SSL/TLS. Para instalarlo hay que averiguar qué servidor usa su sitio web y seguir las instrucciones para instalar y actualizar el certificado.
+
+Los siguientes servicios de Google emiten, instalan y renuevan automáticamente los certificados SSL/TLS sin costo adicional:
+
+-Google Sites
+
+-Google Mi Negocio
+
+-Blogger
+
+-Firebase
 
 ## ¿Qué es un servidor web o servidor http?
 
@@ -66,5 +82,5 @@ Un servidor web o servidor HTTP es un programa informático que procesa una apli
 
 ## ¿Que vamos a hacer en estas practica?
 
-Vamos a crear un servidor web mediante la herramienta de Python.
+Vamos a crear un servidor web mediante la herramienta de Python en el cual cada usuario pueda conectarse y agregar una nueva palabra a una oracion creada entre muchos usuarios conectados
 
