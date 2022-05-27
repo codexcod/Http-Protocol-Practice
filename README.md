@@ -80,6 +80,10 @@ Los siguientes servicios de Google emiten, instalan y renuevan automáticamente 
 
 Un servidor web o servidor HTTP es un programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o aplicación del lado del cliente. El código recibido por el cliente es renderizado por un navegador web. Para la transmisión de todos estos datos suele utilizarse algún protocolo. Generalmente se usa el protocolo HTTP para estas comunicaciones, perteneciente a la capa de aplicación del modelo OSI.
 
+## ¿Que es Flask?
+
+Flask es una aplicacion de framework web, la cual se usa principalmente para empezar en esta area de manera facil y sencilla dentro de los contextos de Python.
+
 ## ¿Que vamos a hacer en estas practica?
 
 Vamos a crear un servidor web mediante la herramienta de Python en el cual cada usuario pueda conectarse y agregar una nueva palabra a una oracion creada entre muchos usuarios conectados
