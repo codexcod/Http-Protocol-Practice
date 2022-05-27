@@ -10,7 +10,7 @@ Dicho en otras palabras, los protocolos son lenguajes o códigos de comunicació
 
 El Protocolo de transferencia de hipertexto (HTTP) es un protocolo para información distribuida, colaborativa e sistemas informaticos de hipermedia. HTTP ha sido utilizado por la "World-Wide Web global iniciative" de información desde 1990. La primera versión de HTTP, denominado HTTP/0.9, era un protocolo simple para la transferencia de datos sin procesar a través de Internet. Es como el código que se establece para que el computador solicitante y el que contiene la información solicitada puedan “hablar” un mismo idioma a la hora de transmitir información por la red.
 
-Ademas este protocolo froma parte de la capa 7 del modelo OSI, la capa de aplicacion, en la cual participan tanto el protocolo http com los protocolos FTP, DNS, entre otros mas.
+Ademas este protocolo forma parte de la capa 7 del modelo OSI, la capa de aplicacion, en la cual participan tanto el protocolo http com los protocolos FTP, DNS, entre otros mas.
 
 ## ¿Para qué sirve el protocolo http?
 
@@ -60,11 +60,9 @@ El método PATCH  es utilizado para aplicar modificaciones parciales a un recurs
 
 Para usar HTTPS con su nombre de dominio, debe instalar un certificado SSL o TLS en su sitio web. Es posible que su host web (proveedor de hosting web) ofrezca seguridad HTTPS, o bien usted puede solicitar un certificado SSL/TLS a las autoridades certificadoras y, luego, instalarlo por su cuenta. Es posible que los certificados SSL/TLS deban renovarse periódicamente.
 
-Por https se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de Transferencia de Hipertexto, que no es más que la versión segura del http, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensible (como claves y usuarios personales).
-
 ## ¿Como conseguir que nuestro dominio tenga el certificado https?
 
-Por https se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de Transferencia de Hipertexto, que no es más que la versión segura del http, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensible (como claves y usuarios personales). Cada servidor tiene su propio proceso para instalar y actualizar certificados SSL/TLS. Para instalarlo hay que averiguar qué servidor usa su sitio web y seguir las instrucciones para instalar y actualizar el certificado.
+Por HTTPS se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de Transferencia de Hipertexto, que no es más que la versión segura del HTTP, es decir, una variante del mismo protocolo que se basa en la creación de un canal cifrado para la transmisión de la información, lo cual lo hace más apropiado para ciertos datos de tipo sensible (como claves y usuarios personales). Cada servidor tiene su propio proceso para instalar y actualizar certificados SSL/TLS. Para instalarlo hay que averiguar qué servidor usa su sitio web y seguir las instrucciones para instalar y actualizar el certificado.
 
 Los siguientes servicios de Google emiten, instalan y renuevan automáticamente los certificados SSL/TLS sin costo adicional:
 
@@ -76,7 +74,7 @@ Los siguientes servicios de Google emiten, instalan y renuevan automáticamente 
 
 -Firebase
 
-## ¿Qué es un servidor web o servidor http?
+## ¿Qué es un servidor web o servidor HTTP?
 
 Un servidor web o servidor HTTP es un programa informático que procesa una aplicación del lado del servidor, realizando conexiones bidireccionales o unidireccionales y síncronas o asíncronas con el cliente y generando o cediendo una respuesta en cualquier lenguaje o aplicación del lado del cliente. El código recibido por el cliente es renderizado por un navegador web. Para la transmisión de todos estos datos suele utilizarse algún protocolo. Generalmente se usa el protocolo HTTP para estas comunicaciones, perteneciente a la capa de aplicación del modelo OSI.
 
