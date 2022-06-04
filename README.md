@@ -56,6 +56,34 @@ El método TRACE  realiza una prueba de bucle de retorno de mensaje a lo largo d
 - ### PATCH
 El método PATCH  es utilizado para aplicar modificaciones parciales a un recurso.
 
+## ¿Qué es una session en http?
+
+En los protocolos basados en el modelo cliente-servidor, como es el caso del HTTP, una sesión consta de tres fases:
+
+1-El cliente establece una conexión TCP (o la conexión correspondiente si la capa de transporte corresponde a otro protocolo).
+
+2-El cliente manda su petición, y espera por la respuesta. 
+
+3-El servidor procesa la petición, y responde con un código de estado y los datos correspondientes.
+
+A partir del protocolo HTTP/1.1 la conexión, no se cierra al finalizar la tercera fase, y el cliente puede continuar realizando peticiones. Esto significa que la segunda y tercera fase, pueden repetirse cualquier número de veces.
+
+## ¿Qué son las cookies?
+
+Una cookie HTTP, cookie web o cookie de navegador es una pequeña pieza de datos que un servidor envía a el navegador web del usuario. El navegador guarda estos datos y los envía de regreso junto con la nueva petición al mismo servidor. Las cookies se usan generalmente para decirle al servidor que dos peticiones tienen su origen en el mismo navegador web lo que permite, por ejemplo, mantener la sesión de un usuario abierta. Las cookies permiten recordar la información de estado en vista a que el protocolo HTTP es un protocolo sin estado.
+
+Las cookies se utilizan principalmente con tres propósitos:
+
+- Gestión de Sesiones
+
+- Personalización
+
+- Rastreo
+
+## ¿Como se utiliza el cache en http?
+
+El rendimiento de los sitios web y las aplicaciones puede mejorarse significativamente al reutilizar los recursos previamente obtenidos. Los cachés web reducen la latencia y el tráfico de red y, por lo tanto, reducen el tiempo necesario para mostrar una representación de un recurso. Al hacer uso del almacenamiento en caché HTTP, los sitios web se vuelven más sensible.
+
 ## ¿Qué es https?
 
 Para usar HTTPS con su nombre de dominio, debe instalar un certificado SSL o TLS en su sitio web. Es posible que su host web (proveedor de hosting web) ofrezca seguridad HTTPS, o bien usted puede solicitar un certificado SSL/TLS a las autoridades certificadoras y, luego, instalarlo por su cuenta. Es posible que los certificados SSL/TLS deban renovarse periódicamente.
@@ -66,13 +94,13 @@ Por HTTPS se entiende HyperText Transfer Procotol Secure o Protocolo Seguro de T
 
 Los siguientes servicios de Google emiten, instalan y renuevan automáticamente los certificados SSL/TLS sin costo adicional:
 
--Google Sites
+- Google Sites
 
--Google Mi Negocio
+- Google Mi Negocio
 
--Blogger
+- Blogger
 
--Firebase
+- Firebase
 
 ## ¿Qué es un servidor web o servidor HTTP?
 
